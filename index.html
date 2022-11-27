@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat&family=Pacifico&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SpaceX</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">SPACEX</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>TOURS</li>
+            <li><a href="#"></a>EXPLORE</li>
+            <li><a href="#"></a>ABOUT</li>
+            <div class="buttons"><button class="fill">contact</button></div>
+        </ul>
+        <img src="menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the cosmos</h2>
+            <div class="line"></div>
+            <h1>welcome to spacex world</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--section  -->
+    <section class="page2">
+        <div class="title">
+            <h1>upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="flexbox">
+            <div class="card">
+                <img src="moon.jpg" class="card-img" alt="">
+                <h3>The Lunar Exploration</h3>
+                <p>the first step of crewed lunar exploration: from Earth orbit it was injected into a lunar trajectory,
+                    completed lunar orbit, and returned safely to Earth</p>
+                <div class="buttons"><button class="fill">learn more</button></div>
+            </div>
+            <div class="card">
+                <img src="https://c4.wallpaperflare.com/wallpaper/633/988/940/james-webb-space-telescope-nasa-space-telescope-stars-hd-wallpaper-preview.jpg" class="card-img" alt="">
+                <h3>James Webb Space Telescope</h3>
+                <p>The JWST is a space telescope which conducts infrared astronomy. As the largest optical telescope in
+                    space, it can able to take high resolution pictures</p>
+                <div class="buttons"><button class="fill">learn more</button></div>
+            </div>
+            <div class="card">
+                <img src="falcon.jpg" class="card-img" alt="">
+                <h3>Falcon 9</h3>
+                <p>Falcon 9 is a partially reusable medium lift launch vehicle that can carry cargo and crew into Earth
+                    orbit, produced by American aerospace company SpaceX.</p>
+                <div class="buttons"><button class="fill">learn more</button></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- explore secction -->
+    <section class="explore">
+        <div class="box">
+            <div class="explore-content">
+                <h1>explore the space</h1>
+                <!-- <div class="line"></div> -->
+                <p>NASA announced it has modified its contract with SpaceX to further develop the Starship human landing system. Initially selected to develop a lunar lander capable of carrying astronauts between lunar orbit and the surface of the Moon as part of NASA’s Artemis III mission—marking humanity's first return to the Moon since the Apollo program’s final mission in 1972—SpaceX will now support a second human landing demonstration as part of NASA's Artemis IV mission.
+                </p>
+                <div class="buttons"><button class="fill">learn more</button></div>
+            </div>
+        </div>
+    </section>
+    <!-- stasrship -->
+    <section class="lunch">
+       
+            <div class="starship">
+                <h2>STARSHIP SELECTED BY NASA TO SUPPORT SUSTAINED LUNAR EXPLORATION</h2>
+                <div class="buttons"><button class="fill">learn more</button></div>
+            </div>
+        
+    </section>
+    <section class="footer">
+        <img class="footer-link" src="facebook.png">
+        <img class="footer-link" src="instagram.png">
+        <img class="footer-link" src="twitter.png">
+
+        <p>
+            ©2022 jagdish_behera
+        </p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
